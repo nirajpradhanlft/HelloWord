@@ -8,4 +8,4 @@ INNER JOIN INFORMATION_SCHEMA.COLUMNS col
     ON col.table_name = tbl.table_name
     AND col.table_schema = tbl.table_schema
 
-WHERE tbl.table_type = 'base table' and tbl.table_name like '%TableName%'
+WHERE tbl.table_type = 'basetable' and tbl.table_name like '%TableName%'
